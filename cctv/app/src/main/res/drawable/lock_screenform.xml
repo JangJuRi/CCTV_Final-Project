@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@color/splash"/>
+
+    <item>
+        <bitmap
+            android:gravity="top"
+            android:src="@drawable/deco"/>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/deco2"/>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="bottom|left"
+            android:src="@drawable/lock_call"/>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="bottom|right"
+            android:src="@drawable/lock_noise"/>
+    </item>
+</layer-list>
